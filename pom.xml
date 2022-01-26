@@ -62,7 +62,7 @@
                         <goals>
                             <goal>check</goal>
                         </goals>
-                    </execution> line
+                    </execution>
                 </executions>
                 <configuration>
                     <rules>
