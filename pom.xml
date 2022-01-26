@@ -58,7 +58,7 @@
                         </goals>
                     </execution>
                     <execution>
-                        <id>default-check</id>
+                        <id>check</id>
                         <goals>
                             <goal>check</goal>
                         </goals>
@@ -67,10 +67,10 @@
                 <configuration>
                     <rules>
                         <rule>
-                            <element>BUNDLE</element>-->
+                            <!--                            <element>BUNDLE</element>&ndash;&gt;-->
                             <limits>
                                 <limit>
-                                    <counter>INSTRUCTION</counter>
+                                    <counter>LINE</counter>
                                     <value>COVEREDRATIO</value>
                                     <minimum>1.00</minimum>
                                 </limit>
@@ -78,7 +78,6 @@
                         </rule>
                     </rules>
                 </configuration>
-
             </plugin>
         </plugins>
     </build>
